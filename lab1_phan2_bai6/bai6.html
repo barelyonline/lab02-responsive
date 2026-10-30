@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;800;900&amp;family=Zilla+Slab:wght@400;500;600;700&amp;display=swap">
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+    <!-- Top bar -->
+    <div class="topbar">
+        <div class="container topbar-inner">
+            <div class="topbar-left">
+                <span class="weather">
+                    <svg class="icon-cloud" viewBox="0 0 28 20" aria-hidden="true"><path d="M8 7a5 5 0 0 1 9.6-1.9A4.5 4.5 0 0 1 24 9a4.5 4.5 0 0 1-1.5 8.8H6.5A5.4 5.4 0 0 1 1 12.4 5.4 5.4 0 0 1 8 7z"/><path d="M5.5 6.6A6 6 0 0 1 14 2.2 6.4 6.4 0 0 0 7 7.3 6 6 0 0 0 5.5 6.6z"/></svg>
+                    <span class="temp">6.1</span><sup>C</sup>
+                    <span class="city">Vietnam</span>
+                </span>
+                <span class="today">Thursday, February 6, 2025</span>
+            </div>
+            <div class="topbar-right">
+                <a href="#">About us</a>
+                <a href="#">Contact us</a>
+                <span class="social">
+                    <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8V6.2c0-.8.2-1.3 1.4-1.3H17V1.2C16.7 1.1 15.6 1 14.4 1 11.8 1 10 2.6 10 5.5V8H7.2v4.1H10V23h4V12.1h3l.5-4.1H14z"/></svg></a>
+                    <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM17.3 5.4a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg></a>
+                    <a href="#" aria-label="X"><svg viewBox="0 0 24 24"><path d="M17.8 2h3.4l-7.4 8.5L22.5 22h-6.8l-5.3-7-6.1 7H.9l7.9-9.1L.5 2h7l4.8 6.4L17.8 2zm-1.2 18h1.9L6.4 3.9h-2L16.6 20z"/></svg></a>
+                    <a href="#" aria-label="Youtube"><svg viewBox="0 0 24 24"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.7 15.1V8.9l5.8 3.1-5.8 3.1z"/></svg></a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main menu -->
+    <header class="navbar">
+        <div class="container navbar-inner">
+            <h1 class="site-title">
+                <a href="#" class="logo">
+                    <span class="logo-big">Website</span>
+                    <span class="logo-small">TITLE</span>
+                </a>
+            </h1>
+            <nav class="mainmenu">
+                <span class="burger" aria-hidden="true"><span></span><span></span><span></span></span>
+                <a href="#">WOMEN</a>
+                <a href="#">CELEBRITY</a>
+                <a href="#">TRAVEL</a>
+                <a href="#">FOOD</a>
+                <a href="#">MUSIC</a>
+                <img class="search" src="images/search.svg" alt="Search">
+            </nav>
+            <a href="#" class="account">My account</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Breaking news / featured / popular -->
+        <section class="hero">
+            <div class="breaking">
+                <h2 class="underline-title">Breaking news:</h2>
+                <a href="#" class="cat">Politics</a>
+                <h3 class="zilla big"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eius</a></h3>
+                <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam</p>
+                <div class="mini">
+                    <h4 class="rh"><span class="locked">LOCKED</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmo</a></h4>
+                    <p class="meta"><a href="#" class="cat">Finance</a> <span class="date">March 8, 2025</span></p>
+                </div>
+                <div class="mini">
+                    <h4 class="rh"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do</a></h4>
+                    <p class="meta"><a href="#" class="cat">Technology</a> <span class="date">March 8, 2025</span></p>
+                </div>
+                <div class="mini">
+                    <h4 class="rh"><span class="locked">LOCKED</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do ei</a></h4>
+                    <p class="meta"><a href="#" class="cat">Celebrity</a> <span class="date">March 8, 2025</span></p>
+                </div>
+            </div>
+
+            <article class="featured">
+                <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                <a href="#" class="cat">Marketing</a>
+                <h2 class="zilla"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed</a></h2>
+            </article>
+
+            <aside class="popular">
+                <h2>Popular:</h2>
+                <article>
+                    <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                    <a href="#" class="cat">Finance</a>
+                    <h3 class="rh"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do e</a></h3>
+                </article>
+                <article>
+                    <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                    <a href="#" class="cat">Music</a>
+                    <h3 class="rh"><span class="locked">LOCKED</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed</a></h3>
+                </article>
+            </aside>
+        </section>
+
+        <!-- Subscription banner -->
+        <div class="deal">
+            <p>Stay on top of what's going on with our subscription deal!</p>
+            <a href="#" class="btn-white">SUBSCRIBE</a>
+        </div>
+
+        <!-- War in Ukraine / Finance / Marketing -->
+        <section class="row-war">
+            <div class="war">
+                <div class="block-head">
+                    <h2>War in Ukraine</h2>
+                    <a href="#" class="btn-black">VIEW ALL</a>
+                </div>
+                <div class="war-cols">
+                    <div class="war-col">
+                        <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                        <h3 class="zilla"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do</a></h3>
+                        <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore</p>
+                        <h4 class="rh"><span class="locked">LOCKED</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod</a></h4>
+                        <h4 class="rh"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do e</a></h4>
+                        <h4 class="rh"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed d</a></h4>
+                    </div>
+                    <div class="war-col">
+                        <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                        <h3 class="zilla"><span class="locked">LOCKED</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eius</a></h3>
+                        <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore</p>
+                        <h4 class="rh"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eius</a></h4>
+                        <h4 class="rh"><span class="locked">LOCKED</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do ei</a></h4>
+                        <h4 class="rh"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed</a></h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="narrow">
+                <h2 class="block-title">Finance</h2>
+                <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                <h3 class="zilla"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiu</a></h3>
+                <h4 class="rh"><span class="locked">LOCKED</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmo</a></h4>
+                <h4 class="rh"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do e</a></h4>
+                <h4 class="rh"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do</a></h4>
+            </div>
+
+            <div class="narrow">
+                <h2 class="block-title">Marketing</h2>
+                <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                <h3 class="zilla"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit</a></h3>
+                <h4 class="rh"><span class="locked">LOCKED</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing el</a></h4>
+                <h4 class="rh"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit se</a></h4>
+                <h4 class="rh"><span class="locked">LOCKED</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do ei</a></h4>
+                <h4 class="rh"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed d</a></h4>
+            </div>
+        </section>
+
+        <!-- Technology / Destinations -->
+        <section class="row-tech">
+            <div class="tech">
+                <h2 class="block-title">Technology</h2>
+                <div class="tech-big">
+                    <article class="overlay">
+                        <img src="images/no_img.jpg" alt="">
+                        <div class="overlay-text">
+                            <a href="#" class="badge">Technology</a>
+                            <h3 class="zilla"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusm</a></h3>
+                        </div>
+                    </article>
+                    <article class="overlay">
+                        <img src="images/no_img.jpg" alt="">
+                        <div class="overlay-text">
+                            <a href="#" class="badge">Technology</a>
+                            <h3 class="zilla"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do</a></h3>
+                        </div>
+                    </article>
+                </div>
+                <div class="tech-small">
+                    <article class="overlay">
+                        <img src="images/no_img.jpg" alt="">
+                        <div class="overlay-text">
+                            <a href="#" class="badge">Music</a>
+                            <h3 class="zilla"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do</a></h3>
+                        </div>
+                    </article>
+                    <article class="overlay">
+                        <img src="images/no_img.jpg" alt="">
+                        <div class="overlay-text">
+                            <a href="#" class="badge">Music</a>
+                            <h3 class="zilla"><span class="exclusive">EXCLUSIVE</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed</a></h3>
+                        </div>
+                    </article>
+                    <article class="overlay">
+                        <img src="images/no_img.jpg" alt="">
+                        <div class="overlay-text">
+                            <a href="#" class="badge">Music</a>
+                            <h3 class="zilla"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do e</a></h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <aside class="destinations">
+                <h2 class="block-title">Destinations</h2>
+                <article>
+                    <h3 class="zilla"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eius</a></h3>
+                    <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                </article>
+                <article>
+                    <h3 class="zilla"><span class="locked">LOCKED</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusm</a></h3>
+                    <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                </article>
+                <article>
+                    <h3 class="zilla"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmo</a></h3>
+                    <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                </article>
+                <article>
+                    <h3 class="zilla"><span class="locked">LOCKED</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmo</a></h3>
+                    <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                </article>
+                <a href="#" class="dest-big"><img src="images/no_img.jpg" alt=""></a>
+            </aside>
+        </section>
+
+        <!-- World of Women -->
+        <section class="women">
+            <h2 class="center-title">World of Women</h2>
+            <div class="women-top">
+                <article>
+                    <div class="women-text">
+                        <h3 class="zilla"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod</a></h3>
+                        <p class="byline"><a href="#">Lara Burns</a> <span class="sep">-</span> <span class="date">March 8, 2025</span></p>
+                    </div>
+                    <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                </article>
+                <article>
+                    <div class="women-text">
+                        <h3 class="zilla"><span class="locked">LOCKED</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod te</a></h3>
+                        <p class="byline"><a href="#">Lara Burns</a> <span class="sep">-</span> <span class="date">March 8, 2025</span></p>
+                    </div>
+                    <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                </article>
+            </div>
+            <div class="women-cards">
+                <article>
+                    <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                    <a href="#" class="cat">Women</a>
+                    <h3 class="rh"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eius</a></h3>
+                </article>
+                <article>
+                    <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                    <a href="#" class="cat">Women</a>
+                    <h3 class="rh"><span class="locked">LOCKED</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiu</a></h3>
+                </article>
+                <article>
+                    <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                    <a href="#" class="cat">Women</a>
+                    <h3 class="rh"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmo</a></h3>
+                </article>
+                <article>
+                    <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                    <a href="#" class="cat">Celebrity</a>
+                    <h3 class="rh"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eius</a></h3>
+                </article>
+                <article>
+                    <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                    <a href="#" class="cat">Celebrity</a>
+                    <h3 class="rh"><span class="locked">LOCKED</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusm</a></h3>
+                </article>
+            </div>
+            <div class="center"><a href="#" class="btn-black load-more">LOAD MORE <span class="chev">&rsaquo;</span></a></div>
+        </section>
+
+        <!-- Latest articles / Sidebar -->
+        <section class="row-latest">
+            <div class="latest">
+                <h2 class="block-title yellow">LATEST ARTICLES</h2>
+                <article>
+                    <a href="#" class="cat">Music</a>
+                    <h3 class="zilla"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do</a></h3>
+                    <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim</p>
+                </article>
+                <article>
+                    <a href="#" class="cat">Music</a>
+                    <h3 class="zilla"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do e</a></h3>
+                    <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim</p>
+                    <p class="excerpt extra">incididunt ut labore et dolore magna aliqua Ut enim ad minim</p>
+                </article>
+                <article>
+                    <a href="#" class="cat">Music</a>
+                    <h3 class="zilla"><span class="locked">LOCKED</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed</a></h3>
+                    <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim</p>
+                </article>
+                <article>
+                    <a href="#" class="cat">Music</a>
+                    <h3 class="zilla"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed</a></h3>
+                    <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim</p>
+                </article>
+                <article>
+                    <a href="#" class="cat">Music</a>
+                    <h3 class="zilla"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do</a></h3>
+                    <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim</p>
+                </article>
+                <article>
+                    <a href="#" class="cat">Food</a>
+                    <h3 class="zilla"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiu</a></h3>
+                    <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim</p>
+                </article>
+                <article>
+                    <a href="#" class="cat">Food</a>
+                    <h3 class="zilla"><span class="locked">LOCKED</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod te</a></h3>
+                    <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim</p>
+                </article>
+                <div class="pagination">
+                    <a href="#" class="current">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <span>...</span>
+                    <a href="#">8</a>
+                    <a href="#" class="next">&rsaquo;</a>
+                    <span class="pages">Page 1 of 8</span>
+                </div>
+            </div>
+
+            <aside class="sidebar">
+                <h2 class="block-title">Subscribe</h2>
+                <ul class="perks">
+                    <li>- Gain full access to our premium content</li>
+                    <li>- Browse free from up to 5 devices at once</li>
+                </ul>
+                <form class="subscribe" action="#">
+                    <input type="email" placeholder="Your email address" aria-label="Your email address">
+                    <button type="submit">UNLOCK ALL</button>
+                    <label class="agree"><input type="checkbox"> <span>I've read and accept the <a href="#">Privacy Policy</a>.</span></label>
+                </form>
+
+                <h2 class="block-title">Food</h2>
+                <article>
+                    <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                    <a href="#" class="cat">Food</a>
+                    <h3 class="rh"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiu</a></h3>
+                </article>
+                <article>
+                    <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                    <a href="#" class="cat">Food</a>
+                    <h3 class="rh"><span class="locked">LOCKED</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod te</a></h3>
+                </article>
+                <article>
+                    <a href="#"><img src="images/no_img.jpg" alt=""></a>
+                    <a href="#" class="cat">Food</a>
+                    <h3 class="rh"><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eius</a></h3>
+                </article>
+                <div class="center"><a href="#" class="btn-black">VIEW ALL</a></div>
+            </aside>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-big">Website</span>
+                    <span class="logo-small">TITLE</span>
+                </a>
+                <span class="social-boxes">
+                    <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8V6.2c0-.8.2-1.3 1.4-1.3H17V1.2C16.7 1.1 15.6 1 14.4 1 11.8 1 10 2.6 10 5.5V8H7.2v4.1H10V23h4V12.1h3l.5-4.1H14z"/></svg></a>
+                    <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM17.3 5.4a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg></a>
+                    <a href="#" aria-label="X"><svg viewBox="0 0 24 24"><path d="M17.8 2h3.4l-7.4 8.5L22.5 22h-6.8l-5.3-7-6.1 7H.9l7.9-9.1L.5 2h7l4.8 6.4L17.8 2zm-1.2 18h1.9L6.4 3.9h-2L16.6 20z"/></svg></a>
+                    <a href="#" aria-label="Youtube"><svg viewBox="0 0 24 24"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.7 15.1V8.9l5.8 3.1-5.8 3.1z"/></svg></a>
+                </span>
+            </div>
+            <nav class="footer-menu">
+                <a href="#" class="active">Home</a>
+                <a href="#">Finance</a>
+                <a href="#">Marketing</a>
+                <a href="#">Politics</a>
+                <a href="#">Technology</a>
+                <a href="#">Women</a>
+                <a href="#">Celebrity</a>
+                <a href="#">Travel</a>
+                <a href="#">Food</a>
+                <a href="#">Music</a>
+            </nav>
+            <div class="footer-cols">
+                <div>
+                    <h3>Company</h3>
+                    <p class="about">Each template in our ever growing studio library can be added and moved around within any page effortlessly with one click.</p>
+                    <ul class="links">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Latest</h3>
+                    <ul class="posts">
+                        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do e</a></li>
+                        <li><span class="locked">LOCKED</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Popular</h3>
+                    <ul class="posts">
+                        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eius</a></li>
+                        <li><span class="locked">LOCKED</span><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eius</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Sitemap</h3>
+                    <ul class="links sitemap">
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Celebrity</a></li>
+                        <li><a href="#">Travel</a></li>
+                        <li><a href="#">Food</a></li>
+                        <li><a href="#">Music</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2025. All Rights Reserved.</p>
+        </div>
+        <a href="#" class="to-top" aria-label="Back to top"><svg viewBox="0 0 24 24"><path d="M4 16l8-8 8 8" fill="none" stroke="#fff" stroke-width="3.2"/></svg></a>
+    </footer>
+</body>
+</html>

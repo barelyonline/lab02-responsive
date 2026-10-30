@@ -1,0 +1,6 @@
+# macOS archive junk
+__MACOSX/
+.DS_Store
+
+# Local tool settings
+.claude/
