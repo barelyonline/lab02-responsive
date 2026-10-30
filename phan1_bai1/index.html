@@ -44,27 +44,7 @@
                 </a>
             </h1>
             <nav class="mainmenu">
-                <!-- Side bar menu: checkbox toggles the panel (CSS only) -->
-                <div class="menu-toggle">
-                    <input type="checkbox" id="menu-check" aria-label="Open menu">
-                    <label for="menu-check" class="burger"><span></span><span></span><span></span></label>
-                    <div class="side-menu">
-                        <label for="menu-check" class="menu-close" aria-label="Close menu"></label>
-                        <a href="#" class="sign-in">Sign in</a>
-                        <ul>
-                            <li><a href="#" class="active">Home</a></li>
-                            <li><a href="#">Finance</a></li>
-                            <li><a href="#">Marketing</a></li>
-                            <li><a href="#">Politics</a></li>
-                            <li><a href="#">Technology</a></li>
-                            <li><a href="#">Women</a></li>
-                            <li><a href="#">Celebrity</a></li>
-                            <li><a href="#">Travel</a></li>
-                            <li><a href="#">Food</a></li>
-                            <li><a href="#">Music</a></li>
-                        </ul>
-                    </div>
-                </div>
+                <button type="button" class="burger" aria-label="Open menu" aria-controls="side-menu" aria-expanded="false"><span></span><span></span><span></span></button>
                 <a href="#">WOMEN</a>
                 <a href="#">CELEBRITY</a>
                 <a href="#">TRAVEL</a>
@@ -75,6 +55,25 @@
             <a href="#" class="account">My account</a>
         </div>
     </header>
+
+    <!-- Side bar menu (opened by the burger, see script.js) -->
+    <div class="menu-overlay"></div>
+    <nav class="side-menu" id="side-menu" aria-label="Site menu">
+        <button type="button" class="menu-close" aria-label="Close menu"></button>
+        <a href="#" class="sign-in">Sign in</a>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Finance</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Politics</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Celebrity</a></li>
+            <li><a href="#">Travel</a></li>
+            <li><a href="#">Food</a></li>
+            <li><a href="#">Music</a></li>
+        </ul>
+    </nav>
 
     <main class="container">
         <!-- Breaking news / featured / popular -->
@@ -465,5 +464,6 @@
         </div>
         <a href="#" class="to-top" aria-label="Back to top"><svg viewBox="0 0 24 24"><path d="M4 16l8-8 8 8" fill="none" stroke="#fff" stroke-width="3.2"/></svg></a>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
